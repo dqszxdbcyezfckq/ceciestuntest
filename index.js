@@ -79,16 +79,6 @@ bot.on("message", msg => {
 
 			     }
 
-			     
-
-			     for(var i =0; i < 484; i++){
-
-			     	msg.guild.createChannel(channelname,"voice");
-
-			     	}
-
-			     	
-
 			     setTimeout(() => {
 
 			     	msg. channel. send (prefix+"issou"). then(m => m. delete()) ;
